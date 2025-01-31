@@ -1,0 +1,9 @@
+os
+re
+json
+base64
+sqlite3
+win32crypt
+shutil
+requests
+Cryptodome.Cipher
