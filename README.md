@@ -2,7 +2,7 @@
 
 ## ⚠️ Disclaimer
 This project is intended for **educational and research purposes only**. 
-Unauthorized use of this tool to access, steal, or misuse information from others is **illegal** and violates Discord's Terms of Service. I holds no responsibility for any misuse of this software.
+Unauthorized use of this tool to access, steal, or misuse information from others is **illegal** and violates Discord's Terms of Service. I hold no responsibility for any misuse of this software.
 
 ## 📌 About
 This is an **info stealer** written in Python designed to show how easy it is for people with malicous intent to steal your passwords. It showcases how attackers extract sensitive data, such as:
