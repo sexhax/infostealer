@@ -2,14 +2,13 @@
 
 ## ⚠️ Disclaimer
 This project is intended for **educational and research purposes only**. 
-Unauthorized use of this tool to access, steal, or misuse information from others is **illegal** and violates Discord's Terms of Service. The author holds no responsibility for any misuse of this software.
+Unauthorized use of this tool to access, steal, or misuse information from others is **illegal** and violates Discord's Terms of Service. I holds no responsibility for any misuse of this software.
 
 ## 📌 About
-This is an **info stealer** written in Python designed to demonstrate security vulnerabilities in Discord clients. It showcases how attackers extract sensitive data, such as:
+This is an **info stealer** written in Python designed to show how easy it is for people with malicous intent to steal your passwords. It showcases how attackers extract sensitive data, such as:
 - Browser cookies and saved passwords
 
 ## 🛠️ Features
-- Extracts Discord tokens from local storage
 - Collects browser data (cookies, saved logins, history)
 - Sends collected data via Webhook
 
