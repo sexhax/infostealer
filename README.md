@@ -1,5 +1,10 @@
 # Discord Info Stealer (Educational Purposes Only)
 
+### ⚠️ Warning
+I will not update this repository anymore, if you have issues troubleshoot it yourself or just throw it into chatgpt.
+
+---
+
 ## ⚠️ Disclaimer
 This project is intended for **educational and research purposes only**. 
 Unauthorized use of this tool to access, steal, or misuse information from others is **illegal** and violates Discord's Terms of Service. I hold no responsibility for any misuse of this software.
